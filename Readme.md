@@ -33,7 +33,7 @@ To protect a field, pass in the `protected: true` option.
 ### Setting Fields
 
     var user = new User();
-    user.filteredSet({username: 'Bobby', admin: true});
+    user.protectedSet({username: 'Bobby', admin: true});
     user.get('admin') == undefined // true
 
 
