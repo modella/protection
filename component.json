@@ -1,0 +1,17 @@
+{
+  "name": "modella-protection",
+  "repo": "modella/protection",
+  "description": "Protection for mass-assignment vulnerabilities for modella.",
+  "version": "0.1.0",
+  "keywords": ["mass-assignment", "modella", "protection"],
+  "dependencies": {
+    "modella/modella": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/protection.js"
+  ]
+}
