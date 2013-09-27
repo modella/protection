@@ -33,8 +33,10 @@ To protect a field, pass in the `protected: true` option.
 ### Setting Fields
 
     var user = new User();
-    user.protectedSet({username: 'Bobby', admin: true});
+    var changedFields = user.protectedSet({username: 'Bobby', admin: true});
+    // Changed fields = {username: 'Bobby'};
     user.get('admin') == undefined // true
+
 
 
 ## License
