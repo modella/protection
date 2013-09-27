@@ -1,6 +1,6 @@
 {
   "name": "modella-protection",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Protection for mass-assignment vulnerabilities for modella.",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,5 @@
   "readmeFilename": "Readme.md",
   "bugs": {
     "url": "https://github.com/modella/protection/issues"
-  },
-  "_id": "modella-protection@0.1.0",
-  "_from": "modella-protection@~0.1.0"
+  }
 }
