@@ -1,6 +1,6 @@
 {
   "name": "modella-protection",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Protection for mass-assignment vulnerabilities for modella.",
   "main": "index.js",
   "scripts": {

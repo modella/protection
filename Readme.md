@@ -35,7 +35,20 @@ To protect a field, pass in the `protected: true` option.
     var user = new User();
     var changedFields = user.protectedSet({username: 'Bobby', admin: true});
     // Changed fields = {username: 'Bobby'};
-    user.get('admin') == undefined // true
+    user.get('admin') === undefined // true
+
+### Nested Objects
+
+    User.attr('preferences', { type: 'object', protected: { modifiedAt: true }});
+
+    var user = new User();
+
+    user.setProtected({
+      preferences: { sendEmails: true, sendSms: true, modifiedAt: new Date() }
+    });
+
+    user.preferences().modifiedAt === undefined // true
+    user.preferences().sendEmails == true // true
 
 
 
